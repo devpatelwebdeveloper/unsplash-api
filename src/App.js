@@ -5,7 +5,6 @@ import PhotoCards from "./Components/PhotoCards/PhotoCards";
 import TopBanner from "./Components/TopBanner/TopBanner";
 import Container from "./Components/Container/Container";
 import "./styles/App.scss";
-// require("dotenv").config();
 
 const App = () => {
   const [photo, setPhoto] = useState("");

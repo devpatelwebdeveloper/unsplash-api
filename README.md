@@ -37,6 +37,12 @@ API being used can be downloaded from : [Unsplash Image API | Free HD Photo API]
 ## To run:
 
 clone the project
+Create .env file
+
+```
+REACT_APP_SECRET_KEY="YOUR SECRET KEY"
+```
+
 run
 
 ```
