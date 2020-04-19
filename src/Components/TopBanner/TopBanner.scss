@@ -1,0 +1,77 @@
+@import "../../styles/App.scss";
+
+.TopBanner {
+  background-color: $black;
+  margin-bottom: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  //Heading
+  .heading {
+    font-size: 24px;
+    line-height: 32px;
+    color: $white;
+    text-align: center;
+    margin: 36px;
+  }
+  //Form
+  input[type="text"] {
+    background-color: transparent;
+    color: $white;
+    border: 2px solid $white;
+    padding: 0.3em 1em;
+    font-size: 2em;
+    font-weight: 700;
+    width: 100%;
+    height: 50px;
+  }
+  input[type="submit"] {
+    background-color: transparent;
+    border: 2px solid $white;
+    padding: 0.5em 2em;
+    font-size: 2em;
+    letter-spacing: 0.5px;
+    color: $white;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+    height: 50px;
+    &:hover {
+      background-color: $white;
+      color: $black;
+    }
+  }
+  //Contains
+  .contains {
+    color: $white;
+    display: none;
+
+    &.visible {
+      display: block;
+    }
+    p {
+      font-size: 16px;
+    }
+    //buttons
+    .button {
+      background-color: $brand-color;
+      border: 1px solid $brand-color;
+      color: $white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      &:hover {
+        background-color: $white;
+        color: $brand-color;
+      }
+      &.btn-disabled {
+        background-color: $grey;
+        border: 1px solid $grey;
+        color: $white;
+      }
+    }
+  }
+}

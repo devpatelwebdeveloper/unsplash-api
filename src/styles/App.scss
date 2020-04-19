@@ -1,0 +1,47 @@
+@import "./utilities/Variables";
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:500);
+
+:root {
+  /* Base font size */
+  font-size: 10px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+
+  &::before,
+  &::after {
+    box-sizing: border-box;
+  }
+}
+
+body {
+  min-height: 100vh;
+  background-color: $white;
+  font-family: "Montserrat", Arial, sans-serif;
+}
+
+.loading {
+  height: 0;
+  width: 0;
+  padding: 15px;
+  border: 6px solid #ccc;
+  border-right-color: #888;
+  border-radius: 22px;
+  -webkit-animation: rotate 1s infinite linear;
+  /* left, top and position just for the demo! */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+@-webkit-keyframes rotate {
+  /* 100% keyframe for  clockwise. 
+     use 0% instead for anticlockwise */
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
