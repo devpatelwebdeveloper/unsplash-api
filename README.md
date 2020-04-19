@@ -6,6 +6,10 @@ This is the project to showcase knowledge REACT,Hooks, REDUX, Functional Compone
 
 API being used can be downloaded from : [Unsplash Image API | Free HD Photo API](https://unsplash.com/developers)
 
+## Live:
+
+[Unsplash API](https://devpatel-unsplash.netlify.app)
+
 ## How to use:
 
 - Type the image you want to search
